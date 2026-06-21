@@ -2,9 +2,6 @@
 
 A pixel-perfect clone of the **Pro-Skills** landing page, built from a Figma design using pure HTML and CSS.
 
-## 🔗 Live Demo
-[View Live]()
-
 
 
 ## 🛠️ Built With
