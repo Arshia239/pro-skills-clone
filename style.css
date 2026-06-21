@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background-color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:white;
+}
+
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.circle{
+    background:#2e86ff;
+    color:white;
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#333;
+}
+
+.buttons button{
+    padding:8px 20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.login{
+    background:white;
+    border:1px solid #2e86ff;
+    color: #1a6fd4;
+}
+
+.signup{
+    background:#2e86ff;
+    color:white;
+    border:none;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+}
+
+.left{
+    width:45%;
+}
+
+.left h1{
+    font-size:50px;
+    line-height:1.3;
+    margin-bottom:20px;
+}
+
+.left p{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.hero-btns button{
+    padding:12px 25px;
+    border-radius:25px;
+    margin-right:15px;
+    cursor:pointer;
+}
+
+.trial{
+    background:#2e86ff;
+    color:white;
+    background:#2e86ff;
+    color:white;
+    border:none;
+}
+
+.works{
+    background:white;
+    border:1px solid #2e86ff;
+    color: #2e86ff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.stats{
+    display:flex;
+    gap:50px;
+    margin-top:40px;
+     
+}
+
+.stats h2{
+    color:#f4a300;
+}
+
+.right{
+    position:relative;
+    width:500px;
+    height:500px;
+}
+
+.orange-circle{
+    width:350px;
+    height:350px;
+    background:#ff7b39;
+    border-radius:50%;
+    position:absolute;
+    top:80px;
+    left:80px;
+    z-index: 2;
+}
+
+.student{
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    top:30px;
+    left:80px;
+    z-index:2;
+}
+
+.rocket{
+      position:absolute;
+     width:300px;
+    height: 300px;
+    top:-70px;
+    left:-80px;
+    z-index: 5;
+       
+      transform: rotate(-15deg);   
+
+
+}
+
+.trophy{
+    position:absolute;
+    width:120px;
+    height:120px;
+    bottom:40px;
+    right:30px;
+    z-index: 5;
+}
+
+.dot{
+    position:absolute;
+    border-radius:50%;
+}
+
+.blue{
+    width:25px;
+    height:25px;
+    background:#2e86ff;
+    bottom:150px;
+    left:50px;
+}
+
+.yellow{
+    width:70px;
+    height:70px;
+    background:#ffd43b;
+    bottom:40px;
+    left:90px;
+}
+
+.purple{
+    width:90px;
+    height:90px;
+    background:#8e44ad;
+    top:60px;
+    right:20px;
+}
+
+.red{
+    width:25px;
+    height:25px;
+    background:#ff5c5c;
+    top:140px;
+    right:0;
+}
+/* Nav links */
+nav a:hover {
+    color: #2e86ff;
+    transition: color 0.3s;
+}
+
+/* Login button */
+.login:hover {
+    background: #2e86ff;
+    color: white;
+    transition: all 0.3s;
+}
+
+/* Sign In button */
+.signup:hover {
+    background: #1a6fd4;
+    transition: background 0.3s;
+}
+
+/* Start Trial button */
+.trial:hover {
+    background: #1a6fd4;
+    transition: background 0.3s;
+}
+
+/* How It Works button */
+.works:hover {
+    background: #2e86ff;
+    color: white;
+    transition: all 0.3s;
+}
+.logo h2 {
+    color: #2e86ff;
+}
+
+.stats div:nth-child(1) h2 {
+    color: #f4a300;
+}
+
+.stats div:nth-child(2) h2 {
+    color: #2e86ff;
+}
+
+.stats div:nth-child(3) h2 {
+    color: #ff4500;
+}
